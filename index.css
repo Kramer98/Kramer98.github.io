@@ -1,0 +1,141 @@
+.nav{
+    overflow: hidden;
+    background-color:#4c3c3c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav #nav-items a{
+    display: block;
+    float: left;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    color:white
+}
+
+.nav #nav-items a:hover{
+    background-color: #c5aa6a;
+}
+html{
+    min-height: 100%;
+}
+body{
+    background-color: mintcream;
+    padding-right: 1%;
+    padding-left: 1%;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+#about-me{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#image{
+    border-color: black;
+    border-style:solid ;
+    border-width: 5px;
+    border-radius: 5%;
+    border-spacing: 3px;   
+}
+
+#photo-text img{
+    height: 300px;
+}
+
+#photo-text{
+    margin-left: 10%;
+    margin-top: 5%;
+    white-space: nowrap;
+    padding:0 1%;
+}
+.info1{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+
+#image{
+    height: 100%;
+    width: 100%;
+    border-radius: 6%;
+}
+
+#text-lines {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0;
+}
+  
+#text-lines:before,
+#text-lines:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    vertical-align: middle;
+    width: 50%;
+}
+  
+#text-lines:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+#text-lines:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+#about-me p{
+      display: inline-block;
+}
+
+.heading{
+      margin-bottom: 0;
+      margin-top: 4%;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+
+}
+
+#info1-text p{
+     margin:0;
+     overflow-wrap: break-word;
+     white-space: pre-line;
+     font-family: 'Montserrat', sans-serif;
+    padding-top: 0;
+    line-height: 1.1rem;
+}
+
+#info1-text{
+    /* background-color: khaki; */
+    border-radius: 6%;
+    margin-left: 20%;
+    padding: 1% 4%;
+    text-align: center;
+}
+
+.project {
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+
+.projects:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact img{
+    margin: 2%;
+}
